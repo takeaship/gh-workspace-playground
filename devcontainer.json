@@ -1,0 +1,15 @@
+{
+    "name": "Server-side TypeScript Playground",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "ms-vscode.vscode-typescript-tslint-plugin"
+            ]
+        }
+    }
+}
